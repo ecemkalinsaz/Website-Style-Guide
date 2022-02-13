@@ -1,0 +1,431 @@
+body {
+    margin: 10px 10px;
+    padding: 10px 50px;
+    font-style: normal;
+    font-family: 'Spartan', sans-serif;
+    color: rgb(42, 43, 43);
+    background: white;
+    background-image: url("pawel-czerwinski-SoB70WFVWGU-unsplash.jpg");
+    background-size: 100% !important;
+    
+}
+
+
+h1 {
+    font-size: 55px;
+    text-align: center;
+}
+
+.main-title {
+    
+    background: linear-gradient(328deg, #92FFC0, #002661);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+
+
+.mainmenu {
+    text-align: center;
+    border: 2px solid #d1d1d6;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    padding: 15px 30px;
+}
+
+.mainmenu li {
+    display: inline;
+}
+.mainmenu li a {
+    
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(60, 61, 61);
+    padding: 10px;
+}
+.mainmenu li a:hover {
+    color: #002661;
+}
+
+.mainmenu, .color-container, .fonts-container, .text-styles-container, .buttons-container, .suggestions-container {
+    background: rgba(255, 255, 255, 0.87);
+    
+}
+
+hr {
+    margin: 10px;
+    border: 0.5px solid #d1d1d6;
+}
+
+.color-container {
+    border: 2px solid #d1d1d6;
+    display: inline-block;
+    width: 99.61%;
+    margin: 20px auto;
+    min-height: 70px;
+    text-align: center;
+}
+
+.colors {
+    float: left;
+    width: 100%
+}
+
+.colors h3 {
+    font-size: 16px;
+}
+
+.color-group {
+    width: 100%;
+    height: auto;
+}
+
+.color-group p {
+    display: inline-block;
+    padding: 20px 30px;
+    border-radius: 5px;
+}
+
+.color-group p:not(:last-child) {
+    margin-right: 10px; 
+}
+
+#Blue1 {
+    background-color: #005670;
+    text-align: center;
+    color: white;
+}
+
+#Blue2 {
+    background-color: #0085ad;
+    text-align: center;
+}
+
+#Blue3 {
+    background-color: #4298b5;
+    text-align: center;
+}
+
+#Blue4 {
+    background-color: #74d2e7;
+    text-align: center;
+}
+
+#Blue5 {
+    background-color: #8db9ca;
+    text-align: center;
+}
+
+#Green1 {
+    background-color: #335238;
+    text-align: center;
+    color: white;
+}
+
+#Green2 {
+    background-color: #689550;
+    text-align: center;
+}
+
+#Green3 {
+    background-color: #85c446;
+    text-align: center;
+}
+
+#Green4 {
+    background-color: #d2ea32;
+    text-align: center;
+}
+
+#Green5 {
+    background-color: #b9dca4;
+    text-align: center;
+}
+
+#Orange1 {
+    background-color: #fe5000;
+    text-align: center;
+}
+
+#Orange2 {
+    background-color: #f48924;
+    text-align: center;
+}
+
+#Orange3 {
+    background-color: #ff9933;
+    text-align: center;
+}
+
+#Orange4 {
+    background-color: #ffc719;
+    text-align: center;
+}
+
+#Orange5 {
+    background-color: #ffc168;
+    text-align: center;
+}
+
+#Gray1 {
+    background-color: #1c2836;
+    text-align: center;
+    color: white;
+}
+
+#Gray2 {
+    background-color: #292929;
+    text-align: center;
+    color: white;
+}
+
+#Gray3 {
+    background-color: #dadfe1;
+    text-align: center;
+}
+
+#Gray4 {
+    background-color: #d8d8d8;
+    text-align: center;
+}
+
+#Gray5 {
+    background-color: #ececec;
+    text-align: center;
+}
+
+.fonts-container  {
+    border: 2px solid #d1d1d6;
+    margin: 20px auto;
+    padding: 10px 30px;
+    width: auto;
+}
+
+#fonts {
+    text-align: center;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.font-panel {
+    display: inline-block;
+    margin: 10px 10px;
+    width: 30%;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.italic-text {
+    font-style: italic;
+}
+
+.font2 {
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.font3 {
+    font-family: 'Inconsolata', monospace;
+    font-size: 18px;
+}
+
+.font4 {
+    font-family: 'EB Garamond', serif;
+    font-size: 18px;
+}
+
+.font5 {
+    font-family: 'Arvo', serif;
+    font-size: 18px;
+}
+
+.font6 {
+    font-family: 'Lora', serif;
+    font-size: 18px;
+}
+
+.text-styles-container {
+    font-family: 'Spartan', sans-serif;
+    border: 2px solid #d1d1d6;
+    
+    padding: 10px 30px;
+}
+
+.text-panel {
+    width: 100%;
+}
+
+#text-styles {
+    text-align: left;
+   
+}
+
+#main-page-heading {
+    text-align: left;
+}
+
+.text-styles-container h1 {
+    font-family: 'Spartan', sans-serif;
+    font-weight: 500 (bold);
+    font-size: 24px;
+}
+
+.text-panel h2 {
+    font-family: 'Jost', sans-serif;
+    font-weight: 500(bold);
+    font-size: 20px;
+}
+
+.text-styles-container p {
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    font-weight: 400; 
+}
+
+.buttons-container {
+    border: 2px solid #d1d1d6;
+    margin: 20px auto;
+    padding: 10px 30px;
+    width: auto;
+}
+
+#buttons {
+    text-align: left;
+}
+
+button {
+    height: 45px;
+    width: 100px;
+    margin: 3.5%;
+    font-weight: bold; 
+}
+
+#button1 {
+    background-color: rgb(248, 248, 248);
+    color: rgb(49, 49, 49);
+    text-transform: uppercase;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border: 1px solid rgb(49, 49, 49);
+}
+#button1:hover {
+    background-color: rgb(49, 49, 49);
+    color: rgb(248, 248, 248);
+    cursor: pointer;
+    border: 1px solid rgb(248, 248, 248);
+}
+
+#button2 {
+    border-radius: 30px;
+    background-color: #dabbe0;
+    color: rgb(62, 44, 63);
+    text-transform: uppercase;
+    padding: 10px;
+    transition: all 0.4s ease 0s;
+    border: none;
+    cursor: pointer;
+}
+#button2:hover {
+    color:rgb(62, 44, 63);
+    background-color: #f1e347;
+    letter-spacing: 1px;
+    transition: all 0.4s ease 0s;
+    text-shadow: 1px 1px 2px rgb(225, 163, 233);
+    width: 120px;
+    cursor: pointer;
+}
+#button3 {
+    border-radius: 5%;
+    background-color: rgb(87, 175, 190);
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px;
+    transition: all 0.3s ease 0s;
+    border: none;
+    cursor: pointer;
+}
+#button3:hover {
+    background-color: rgb(245, 162, 67);
+    letter-spacing: 2px;
+    transition: all 0.3s ease 0s;
+   
+    width: 110px;
+    cursor: pointer;
+}
+#button4 {
+    border-radius: 50px;
+    background-color: rgb(246, 253, 231);
+    color: #0d5e31;
+    text-transform: uppercase;
+    padding: 10px;
+    transition: all 0.3s ease 0s;
+    border: 1px solid #0d5e31;
+    cursor: pointer;
+    
+}
+#button4:hover {
+    border: 1px solid #0d5e31;
+    letter-spacing: 1px;
+    border-radius: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+} 
+
+#button5 {
+    border-radius: 5px;
+    background-color: rgb(253, 251, 117);
+    color: rgb(71, 71, 71);
+    text-transform: uppercase;
+    padding: 10px;
+    transition: all 0.3s ease 0s;
+    border: none;
+    cursor: pointer;
+    
+}
+#button5:hover {
+    background-color: rgb(221, 253, 168);
+    letter-spacing: 1px;
+    transition: all 0.3s ease 0s;
+    width: 130px;
+    cursor: pointer;
+    
+}
+#button6 {
+    border-radius: 30px;
+    background-color: rgb(230, 158, 4);
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    transition: all 0.3s ease 0s;
+    border: none;
+    cursor: pointer;
+}
+#button6:hover {
+    letter-spacing: 1px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    box-shadow: 0 25px 50px 0 rgb(255, 253, 118);
+}
+
+.suggestions-container {
+    border: 2px solid #d1d1d6;
+    padding: 10px 30px;
+    margin: 20px auto;
+}
