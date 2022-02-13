@@ -7,7 +7,6 @@ body {
     background: white;
     background-image: url("pawel-czerwinski-SoB70WFVWGU-unsplash.jpg");
     background-size: 100% !important;
-    
 }
 
 
@@ -27,8 +26,6 @@ h2 {
     font-size: 20px;
 }
 
-
-
 .mainmenu {
     text-align: center;
     border: 2px solid #d1d1d6;
@@ -41,6 +38,7 @@ h2 {
 .mainmenu li {
     display: inline;
 }
+
 .mainmenu li a {
     
     text-decoration: none;
@@ -48,13 +46,13 @@ h2 {
     color: rgb(60, 61, 61);
     padding: 10px;
 }
+
 .mainmenu li a:hover {
     color: #002661;
 }
 
 .mainmenu, .color-container, .fonts-container, .text-styles-container, .buttons-container, .suggestions-container {
     background: rgba(255, 255, 255, 0.87);
-    
 }
 
 hr {
